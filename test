@@ -1,0 +1,33 @@
+	<script type="text/javascript">
+		jQuery('#section5.travel-tips .read-more-link').html("<span>Learn More</span>");
+		
+		jQuery(".bd-post-footer").prepend("<div class='post-footer'></div>")
+		jQuery( ".blog_template" ).each(function( index ) {
+		  jQuery(this).find(".post-footer").append(jQuery(this).find(".social-component"))
+		});
+		jQuery( ".blog_template" ).each(function( index ) {
+		  jQuery(this).find(".post-footer").append(jQuery(this).find(".bd-metacomments"))
+		});
+		jQuery( ".blog_template" ).each(function( index ) {
+		  jQuery(this).find(".post-footer").append(jQuery(this).find(".bd-metadate"))
+		});
+		jQuery( ".blog_template" ).each(function( index ) {
+		  jQuery(this).find(".bd-blog-header h2").insertBefore(jQuery(this).find(".bd-post-image "))
+		});
+		jQuery( ".blog_template" ).each(function( index ) {
+		  jQuery(this).find(".bd-metacats").insertBefore(jQuery(this).find("h2"))
+		});
+		jQuery( ".blog_template" ).each(function( index ) {
+		  jQuery(this).find(".bd-metauser").insertAfter(jQuery(this).find("h2"))
+		});
+		jQuery( ".blog_template" ).each(function( index ) {
+		  jQuery(this).find(".bd-metadate").insertAfter(jQuery(this).find(".social-component"))
+		});
+		jQuery( ".blog_template" ).each(function( index ) {
+		  jQuery(this).find(".bd-metacomments").insertBefore(jQuery(this).find(".social-component"))
+		});
+		jQuery( ".blog_template" ).each(function( index ) {
+		  jQuery(this).find(".bd-metadate").insertAfter(jQuery(this).find(".social-component"))
+		});
+		
+	</script>
